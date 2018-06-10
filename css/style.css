@@ -1,0 +1,272 @@
+body{
+	background-color: #fef0e8 !important;
+	height: 100%;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.loading{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 999;
+}
+
+.loading > .load-ico{
+	background-image: url('../images/loading.gif');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	top: 48%;
+	left: 48%;
+	position: absolute;
+}
+
+.remove-pad{
+	padding: 0 !important;
+}
+
+.inl-blk{
+	display: inline-block;
+}
+
+.txt-bold{
+	font-weight: bold;
+}
+
+.cont{
+	width: 1140px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 40px;
+}
+
+.avatar{
+	display: block;
+	width: 160px;
+	height: 160px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 100%;
+	border: 5px solid #2a343e;
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.bg-gray{
+	background-color: #364458;
+}
+
+.bg-redpink{
+	background-color: #f14e40;
+}
+
+.block-shape{
+	display: block;
+	position: absolute;
+	width: 40px;
+	height: 55px;
+	top: 0;
+	left: 0;
+}
+
+.header{
+	border-bottom: 2px solid #f14e40;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.header .name{
+	position: relative;
+}
+
+.header .name h3{
+	margin-left: 40px;
+	font-size: 32px;
+}
+
+.header > .name > .block-shape{
+	top: 20px;
+}
+
+.header > .name > p{
+	margin-left: 40px;
+	margin-right: 20px;
+	margin-top: 25px;
+}
+
+.header > .info > ul{
+	margin-right: 50px;
+	margin-top: 30px;
+	font-size: 16px;
+}
+
+.header > .info > ul > li{
+	text-align: right;
+	line-height: 30px;
+}
+
+.header > .info > ul > li > i{
+	color: #f14e40;
+	width: 10px;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.content > div > h3{
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+.content .exp-block .exp-block-head > h3,
+.content .exp-block .exp-block-head > h5{
+	margin: 4px 0;
+}
+
+.content .exp-block .exp-block-head > h3{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.content .exp-block{
+	margin-left: 40px;
+	margin-right: 20px;
+}
+
+.content .exp-block .exp-block-head .time-local{
+	font-size: 12px;
+	color: #f14e40;
+}
+
+.content .exp-block .exp-block-head .time-local .local{
+	text-align: right;
+}
+
+.content .exp-block .exp-block-head .block-shape{
+	top: 5px;
+	left: -55px;
+}
+
+.content .exp-block .exp-block-body > h3{
+	font-size: 14px;
+	color: #f14e40;
+	margin-bottom: 0;
+}
+
+.content .skill-block{
+	margin-right: 40px;
+}
+
+.content .skill-block .prog-line > ul{
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 100%;
+	word-spacing: -4px;
+	height: 10px;
+}
+
+.content .skill-block .prog-line > ul > li{
+	display: inline-block;
+	width: 33.33%;
+	margin: 0;
+	padding: 0;
+	border-left: 1px solid #f14e40;
+	height: 10px;
+}
+
+.content .skill-block .prog-line > ul > li:last-child{
+	border-right: 1px solid #f14e40;
+}
+
+.content .skill-block .skill{
+	text-align: right;
+}
+
+.content .skill-block .row{
+	margin-bottom: 25px;
+}
+
+.content .skill-block .row:first-child{
+	margin-bottom: 5px;
+}
+
+.content .skill-block .row:nth-child(2){
+	margin-bottom: 10px;
+}
+
+.sink{
+	border: 2px solid #f14e40;
+	height: 18px;
+}
+
+.sink > .val{
+	background-color: #f14e40;
+	height: 14px;
+}
+
+.content .achie{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.content .achie .ach-content > h5{
+	margin-bottom: 3px;
+	font-size: 16px;
+}
+
+.content .achie .ach-content > p{
+	font-size: 13px;
+}
+
+.content .lang > ul > li:first-child{
+	margin-right: 50px;
+}
+
+.content .interest > ul > li:first-child{
+	border-left: none;
+	padding-left: 0;
+}
+
+.content .interest > ul > li{
+	border-left: 1px solid #333;
+	line-height: 16px;
+	margin-bottom: 15px;
+	padding: 0 10px;
+}
+
+.content .edu{
+	margin-left: 40px;
+	margin-right: 20px;
+}
+
+.content .edu .edu-block{
+	margin-bottom: 20px;
+}
+
+.content .edu .edu-block .block-shape{
+	top: 0;
+	left: -40px;
+}
+
+.content .edu .edu-block h4{
+	margin: 0;
+	font-size: 16px;
+}
+
+.content .edu .edu-block .date-time{
+	color: #f14e40;
+}
